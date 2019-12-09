@@ -13,25 +13,21 @@ class App extends Component {
             list:[]
         }
     }
-    // componentDidMount(){
-    //     const obj = {type:1,wd:'',pageSize:10,pageNum:2,k:9586128}
-    //     getList(obj).then((res)=>{
-    //         console.log(res)
-    //     })
-    // }
     render(){
         return(
-            <Router>
-                <Switch>
-                    <Redirect to="home" from="/" exact/>
-                    {
-                        routers.map((item)=>{
-                            return <Route key={item.pathname} path={item.pathname} component={item.component} exact></Route>
-                        })
-                    }
-                </Switch>
+            <div>
+                <Router>
+                    <Switch>
+                        <Redirect to="home" from="/" exact/>
+                        {
+                            routers.map((item)=>{
+                                return <Route key={item.pathname} path={item.pathname} component={item.component} exact></Route>
+                            })
+                        }
+                    </Switch>
+                </Router>
                 <Foot></Foot>
-            </Router>
+            </div>
         )
     }
 }
