@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import {getList} from "./api/api"
 import ClassIfy from "./page/classify/index"
+import 'antd/es/date-picker/style/css'
+import Foot from "./page/classify/foot/foot"
 
 class App extends Component {
     constructor(props){
@@ -19,6 +21,7 @@ class App extends Component {
         return(
             <div>
                 <ClassIfy></ClassIfy>
+                <Foot></Foot>
             </div>
         )
     }

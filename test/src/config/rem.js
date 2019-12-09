@@ -1,8 +1,8 @@
 window.onload=function(){
-    setRem(720)
+    setRem(750)
 }
 window.onresize=function(){
-    setRem(720)
+    setRem(750)
 }
 
 function setRem(i){
