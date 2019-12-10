@@ -1,22 +1,35 @@
 import React, { Component } from 'react'
 import Head from "./head/head"
-import Content from "./content/content"
-import {BrowserRouter as Router,Route} from 'react-router-dom'
-import {classifyRouter} from '../../routers/index'
+import Content from '../../page/classify/content/content'
 
-export default class index extends Component {
+export default class ClassIfyIndex extends Component {
+    
     render() {
         return (
             <div>
-                <Router>
-                    <Head></Head>
-                    {
-                        classifyRouter.map((item)=>{
-                            return <Route key={item.pathname} path={item.pathname} component={item.component} exact></Route>
-                        })
-                    }
-                </Router>
+                <Head/>
+                <Content/>
             </div>
         )
     }
 }
+
+
+
+
+// import React, { Component } from 'react'
+// import Head from "./head/head"
+// import Content from "./content/content"
+// import {Route,Redirect,Switch} from 'react-router-dom'
+// import {routers} from '../../routers/index'
+
+// class Classify extends Component {
+//     render() {
+//         console.log(routers[0].children)
+//         return (
+//             <div>
+//             </div>
+//         )
+//     }
+// }
+// export default Classify

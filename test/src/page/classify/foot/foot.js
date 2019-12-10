@@ -35,7 +35,7 @@ class foot extends Component {
         )
     }
     click = ()=>{
-        console.log(this.props)
+        // console.log(this.props)
     }
 }
 export default withRouter(foot)

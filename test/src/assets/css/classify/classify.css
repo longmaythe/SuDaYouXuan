@@ -5,6 +5,9 @@
     position: fixed; 
     z-index: 100;
 }
+.c-l-center{
+    padding-bottom:.5rem;
+}
 .c-h-l{
     font-size: .23rem;
     float: left;
@@ -185,4 +188,125 @@
 .slide-content img{
     width: 100%;
     height: 100%;
+}
+.c-l-head{
+    width: 100%;
+}
+.c-l-h-head{
+    width: 100%;
+    height: .44rem;
+    background: #fff;
+}
+.c-l-h-inp{
+    width: 100%;
+    height: .49rem;
+    background: #f4f4f4;
+    padding: .095rem .58rem .095rem .15rem;
+    position: relative;
+}
+.c-l-h-inp>i{
+    position: absolute;
+    top: .18rem;
+    left: .22rem;
+}
+.c-l-h-inp>input{
+    width: 3.02rem;
+    height: .3rem;
+    background: #fff;
+    border: none;
+    padding-left: .335rem;
+    outline: none;
+    font-size: .12rem;
+    color: #2c3e50;
+    border-radius: .03rem;
+}
+.c-l-h-inp>p{
+    width: .43rem;
+    height: .3rem;
+    font-size: .14rem;
+    position: absolute;
+    right: 0;
+    top: .15rem;
+    margin: 0;
+}
+.c-l-c-head{
+    width: 100%;
+    height: 2.08rem;
+    padding: .15rem .15rem 0 .15rem;
+}
+.c-l-c-c-letter{
+    width: 100%;
+    background: #f4f4f4;
+}
+.c-l-c-c-letter>p{
+    width: 100%;
+    padding-left: .15rem;
+    height: .3rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+.c-l-c-c-letter>ul>li{
+    width: 100%;
+    box-sizing: border-box;
+    height: .48rem;
+    background: #fff;
+    line-height: .48rem;
+    border-bottom: .01rem solid #ededed;
+    padding-left: .2rem;
+    list-style: none;
+}
+.c-l-c-c-letter>ul{
+    margin: 0;
+    width: 100%;
+}
+.c-l-c-h-GPS{
+    width: 100%;
+    height: .74rem;
+}
+.c-l-c-h-g-title{
+    font-size: .13rem;
+    color: #797d82;
+    margin-bottom: .1rem;
+}
+.c-l-c-h-g-detail{
+    width: 100%;
+    height: .45rem;
+}
+.c-l-c-h-g-d-city{
+    width: 1.14rem;
+    height: .45rem;
+    padding-bottom: .15rem;
+    float: left;
+}
+.c-l-c-h-g-d-city>p{
+    width: .99rem;
+    height: .3rem;
+    background: #f4f4f4;
+    float: left;
+    text-align: center;
+    line-height: .3rem;
+    border-radius: .03rem;
+    font-size: .14rem;
+    color: #2c3e50;
+    margin: 0 .075rem;
+}
+.c-l-h-h-l{
+    width: 14%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: .44rem;
+}
+.c-l-h-h-l>i{
+    font-size: .19rem;
+    color: #191a1b;
+}
+.c-l-h-h-c{
+    width: 72%;
+    height: 100%;
+    float: left;
+    font-size: .17rem;
+    color: #191a1b;
+    text-align: center;
+    line-height: .44rem;
 }

@@ -5,7 +5,7 @@ import {Link,withRouter} from 'react-router-dom'
 
 class head extends Component {
     render() {
-        console.log(this.props)
+        // console.log(this.props)
         return (
             <div className="class-head">
                 <div className="c-h-l">
@@ -15,7 +15,7 @@ class head extends Component {
                     <div className="c-h-c-t">企业福利</div>
                 </div>
                 <div className="c-h-r">
-                    <Link to="localList">
+                    <Link to="/localList">
                         <div className="c-h-r-local">
                             北京市<Icon type="down" />
                         </div>
