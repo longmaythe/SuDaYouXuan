@@ -5,6 +5,8 @@ import 'antd/es/date-picker/style/css'
 import Foot from "./page/classify/foot/foot"
 import {BrowserRouter as Router,Switch,Route,Redirect,withRouter} from "react-router-dom"
 import {routers} from './routers/index'
+import { Provider } from "react-redux"
+import store from "./store/store"
 
 class App extends Component {
     constructor(props){
@@ -16,17 +18,19 @@ class App extends Component {
     render(){
         return(
             <div>
-                <Router>
-                    <Switch>
-                        <Redirect to="home" from="/" exact/>
-                        {
-                            routers.map((item)=>{
-                                return <Route key={item.pathname} path={item.pathname} component={item.component} exact></Route>
-                            })
-                        }
-                    </Switch>
-                </Router>
-                <Foot></Foot>
+                <Provider store={store}>
+                    <Router>
+                        <Switch>
+                            <Redirect to="home" from="/" exact/>
+                            {
+                                routers.map((item)=>{
+                                    return <Route key={item.pathname} path={item.pathname} component={item.component} exact></Route>
+                                })
+                            }
+                        </Switch>
+                        <Foot></Foot>
+                    </Router>
+                </Provider>
             </div>
         )
     }

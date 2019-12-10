@@ -1,4 +1,4 @@
-import {ClassIfy,Home,My,ShoppingCar,NotFound} from "../page"
+import {ClassIfy,Home,My,ShoppingCar,NotFound,Content,localList} from "../page"
 
 export const routers = [{
     pathname:'/classify',
@@ -15,4 +15,12 @@ export const routers = [{
 },{
     pathname:'/*',
     component:NotFound
+},]
+
+export const classifyRouter = [{
+    pathname:'/conent',
+    component:Content
+},{
+    pathname:'/locallist',
+    component:localList
 },]
