@@ -9,7 +9,9 @@ class head extends Component {
         return (
             <div className="class-head">
                 <div className="c-h-l">
-                    <Icon type="home" />
+                    <Link to="/home">
+                        <Icon type="home" />
+                    </Link>
                 </div>
                 <div className="c-h-c">
                     <div className="c-h-c-t">企业福利</div>

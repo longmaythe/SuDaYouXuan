@@ -2,7 +2,7 @@ import axios from "axios"
 import { Config } from "@jest/types"
 
 const service = axios.create({
-    baseURL : "https://m.sdyxmall.com"
+    baseURL : "http://localhost:13000"
 })
 
 
