@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import Head from "./head/head"
 import Content from '../../page/classify/content/content'
-import {getList} from '../../api/api'
+// import {getList} from '../../api/api'
 
 export default class ClassIfyIndex extends Component {
     componentDidMount(){
-        getList().then((res)=>{
-            console.log(res)
-        }).catch((err)=>{
-            console.log(err)
-        })
+        // getList().then((res)=>{
+        //     console.log(res)
+        // }).catch((err)=>{
+        //     console.log(err)
+        // })
     }
     render() {
         return (
