@@ -5,6 +5,5 @@ import ShoppingCar from "./shoppingCar"
 import NotFound from './404'
 import Content from './classify/content/content'
 import localList from './classify/content/localList'
-import Details from './classify/content/details'
 
-export {ClassIfy,Home,My,ShoppingCar,NotFound,Content,localList,Details}
+export {ClassIfy,Home,My,ShoppingCar,NotFound,Content,localList}

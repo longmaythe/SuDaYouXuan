@@ -90,6 +90,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "http-proxy-middleware": "^0.20.0"
@@ -146,5 +147,7 @@
     "presets": [
       "react-app"
     ]
+=======
+>>>>>>> parent of 578089a... add someone
   }
 }

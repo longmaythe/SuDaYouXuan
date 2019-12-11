@@ -2,7 +2,11 @@ import axios from "axios"
 import { Config } from "@jest/types"
 
 const service = axios.create({
+<<<<<<< HEAD
     baseURL : "https://localhost:13000"
+=======
+    baseURL : "https://m.sdyxmall.com"
+>>>>>>> parent of 578089a... add someone
 })
 
 

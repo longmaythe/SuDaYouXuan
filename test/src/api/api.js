@@ -20,8 +20,10 @@ export const getArticleEdit = (id,title,author,createAt) =>{
    })
 }
 
-export const getList = () => {
-    return axios.get("/list",{
-        
+export const getList = (...obj) => {
+    return axios.get("/gateway",{
+        params:{
+            ...obj
+        }
     })
 }

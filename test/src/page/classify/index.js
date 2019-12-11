@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Head from "./head/head"
 import Content from '../../page/classify/content/content'
+<<<<<<< HEAD
 // import {getList} from '../../api/api'
 
 export default class ClassIfyIndex extends Component {
@@ -11,6 +12,11 @@ export default class ClassIfyIndex extends Component {
         //     console.log(err)
         // })
     }
+=======
+
+export default class ClassIfyIndex extends Component {
+    
+>>>>>>> parent of 578089a... add someone
     render() {
         return (
             <div>
