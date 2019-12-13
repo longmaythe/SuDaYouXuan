@@ -1,0 +1,302 @@
+[
+            {
+                "defaultSkuId": 3737,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "11支 丨 玫瑰",
+                "productId": 2589,
+                "salesCount": 2736,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/cb8cdd028967c56f51fc9cdbcf032080.png",
+                    "inventory": 92,
+                    "masterName": "红色 ",
+                    "price": 7900,
+                    "salesCount": 1521,
+                    "skuId": 3737,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "11支玫瑰，简约纸盒包装（白，红，紫，香槟，粉白 五色可选）",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"2589\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 769
+            },
+            {
+                "defaultSkuId": 4558,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "十二星座花束",
+                "productId": 3095,
+                "salesCount": 540,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/00a030c220cbd73469b9437b8e4c7b2a.png",
+                    "inventory": 494,
+                    "masterName": "双鱼 ",
+                    "price": 19990,
+                    "salesCount": 171,
+                    "skuId": 4558,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "花艺师搭配花束，生日用花首选",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"3095\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 5960
+            },
+            {
+                "defaultSkuId": 3767,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "10朵 丨 百合",
+                "productId": 2610,
+                "salesCount": 927,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/b3ca9a9eb136a1f6f11f78c3c5201f52.png",
+                    "inventory": 473,
+                    "masterName": "白色 ",
+                    "price": 7900,
+                    "salesCount": 450,
+                    "skuId": 3767,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "10朵百合，简约纸盒包装（白色，黄色，粉色 三色可选）",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"2610\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 1419
+            },
+            {
+                "defaultSkuId": 4224,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "阳光森巴",
+                "productId": 2929,
+                "salesCount": 45,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/e19b97948f1cc8ca6cc66f4ad10ec7e2.png",
+                    "inventory": 295,
+                    "masterName": "",
+                    "price": 15900,
+                    "salesCount": 45,
+                    "skuId": 4224,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "黄色向日葵，红色多头小玫瑰",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"2929\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 295
+            },
+            {
+                "defaultSkuId": 5421,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "芳华未央",
+                "productId": 3614,
+                "salesCount": 144,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/56502c5d6132d69e26ac616ce39748c3.png",
+                    "inventory": 988,
+                    "masterName": "",
+                    "price": 15900,
+                    "salesCount": 144,
+                    "skuId": 5421,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "红玫瑰，黄底橙边康乃馨，流星雨玫瑰，猫眼",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"3614\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 988
+            },
+            {
+                "defaultSkuId": 6216343,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "喜欢你",
+                "productId": 6213311,
+                "salesCount": 252,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/0c1b1125d0f2cb08738e0cca4e5d61ef.png",
+                    "inventory": 976,
+                    "masterName": "",
+                    "price": 16900,
+                    "salesCount": 252,
+                    "skuId": 6216343,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "珍爱玫瑰，大叶尤加利叶，附带卡包（可立鲜，贺卡）",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"6213311\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 976
+            },
+            {
+                "defaultSkuId": 3771,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "只如初见",
+                "productId": 2612,
+                "salesCount": 513,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/02563b0600263a90c50e617edcbed3c7.png",
+                    "inventory": 450,
+                    "masterName": "",
+                    "price": 13500,
+                    "salesCount": 513,
+                    "skuId": 3771,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "白玫瑰，银叶菊，相思梅,一撕得纸盒包装，附带卡包",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"2612\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 450
+            },
+            {
+                "defaultSkuId": 3773,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "芳菲淑女",
+                "productId": 2614,
+                "salesCount": 72,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/7d644d19a8036649b0f5ae7a8544f3e5.png",
+                    "inventory": 493,
+                    "masterName": "",
+                    "price": 23900,
+                    "salesCount": 72,
+                    "skuId": 3773,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "帝王花，玫瑰，洋桔梗，尤加利，小雏菊一撕得纸盒包装，附带卡包",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"2614\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 493
+            },
+            {
+                "defaultSkuId": 4221,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "依恋",
+                "productId": 2928,
+                "salesCount": 225,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/12ac42e294c8c8064aacb35487def546.png",
+                    "inventory": 279,
+                    "masterName": "",
+                    "price": 13500,
+                    "salesCount": 225,
+                    "skuId": 4221,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "粉玫瑰 ，绿色洋桔梗，粉色多头康乃馨",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"2928\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 279
+            },
+            {
+                "defaultSkuId": 6682640,
+                "labels": {
+                    "common": null,
+                    "country": null,
+                    "buyerShow": ""
+                },
+                "masterName": "仲夏森梦",
+                "productId": 6679518,
+                "salesCount": 45,
+                "sku": {
+                    "imgUrl": "https://mall.s.maizuo.com/6e13c04e65bcb5f51ee5cb0bf6e5d99d.png",
+                    "inventory": 992,
+                    "masterName": "",
+                    "price": 16900,
+                    "salesCount": 45,
+                    "skuId": 6682640,
+                    "slaveName": "",
+                    "marketPrice": 0,
+                    "groupPrice": 0
+                },
+                "slaveName": "芬得拉，白色洋桔梗，绿毛球，绿色毛边洋桔梗，女贞，附带卡包（可立鲜，贺卡）",
+                "supplierId": 104,
+                "action": {
+                    "actionType": 7,
+                    "actionData": "{\"businessId\":\"6679518\",\"param\":\"1\"}"
+                },
+                "hasVideo": 0,
+                "totalInventory": 992
+            }
+        ]

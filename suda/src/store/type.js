@@ -1,0 +1,2 @@
+export const LIST_STATE_CHANGE = "LIST_STATE_CHANGE"
+export const MINUS_STATE_NUM = "MINUS_STATE_NUM"

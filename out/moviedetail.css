@@ -1,0 +1,141 @@
+.moviedetail{
+    padding-top: .44rem;
+}
+.moviedetail .moviedetail_header{
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: .44rem;
+}
+.moviedetail_goback i{
+    height: .30rem;
+    font-size: .20rem;
+    float: left;
+    margin-left: .1rem;
+    margin-top: .12rem;
+}
+.moviedetail .moviedetail_title{
+    font-size: .17rem;
+    line-height: .44rem;
+    width: 100%;
+    text-align: center;
+}
+.moviedetail .film-detail{
+    padding: .15rem;
+    background-color: #fff;
+}
+.film-detail .grey-text {
+    font-size: .13rem;
+    color: #797d82;
+    margin-top: .1rem;
+
+}
+.film-detail .test{
+   height: .25rem;
+   overflow: hidden;
+}
+.actors{
+    margin-top: .1rem;
+    background: #fff;
+}
+.actors .actors-title-bar{
+    height: .62rem;
+    width: 100%;
+    padding: .15rem;
+}
+.movrow-scroll-wrapper{
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 1.4rem;
+    background: rgb(255, 255, 255);
+}
+.movrow-scroll-wrapper ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding-left: .15rem;
+    list-style: none;
+    overflow: scroll;
+}
+.movrow-scroll-wrapper ul li{
+    cursor: pointer;
+    display: block;
+    float: left;
+    position: relative;
+    margin-right: .10rem;
+    /* width: .85rem; */
+}
+.movrow-scroll-wrapper ul li .actor_img{
+    width: .85rem;
+    height: .85rem;
+    background: rgb(249, 249, 249);
+    opacity: 1;
+    display: block;
+}
+.actors-name{
+    font-size: .12rem;
+    color: #191a1b;
+    width: .85rem;
+    height: .18rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+    margin-top: .05rem;
+}
+.actors-role{
+    font-size: .10rem;
+    color: #797d82;
+    display: block;
+    text-align: center;
+}
+.photos{
+    margin-top: .10rem;
+    margin-bottom: .60rem;
+    background-color: #fff;
+}
+.photos .photos-title-bar {
+    height: .62rem;
+    width: 100%;
+    padding: .15rem;
+}
+.photos .photos-title-bar .photos-title-text {
+    font-size: .16rem;
+    text-align: left;
+    color: #191a1b;
+}   
+.photos .photos-title-bar .photos-to-all {
+    font-size: .13rem;
+    color: #797d82;
+    float: right;
+}
+.photos .photos-list{
+    height: 1.15rem;
+    background: rgb(255, 255, 255);
+}
+.photos .photos-list .pho_img{
+    width: 1.5rem;
+    height: 1rem;
+    background: rgb(249, 249, 249);
+    opacity: 1;
+    display: block;
+}
+.goSchedule{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: .50rem;
+    width: 100%;
+    text-align: center;
+    background-color: #c03131;
+    color: #fff;
+    font-size: .16rem;
+    line-height: .50rem;
+}

@@ -1,0 +1,26 @@
+div{
+    width: 100%;
+}
+.team_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .44rem;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    z-index: 300;
+    background-color: #fff;
+    border-bottom: .01rem solid #ededed;
+    /* padding-bottom: .44rem; */
+}
+.team_left{
+    font-size: .20rem;
+    height: 100%;
+    line-height: .44rem;
+    margin-left:.1rem;
+}
+.actor{
+    margin-top: .44rem;
+}

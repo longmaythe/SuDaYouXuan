@@ -21,9 +21,18 @@ export const getArticleEdit = (id,title,author,createAt) =>{
 }
 
 export const getList = (...obj) => {
-    return axios.get("/gateway",{
+    // console.log(...obj)
+    return axios.get("/list",{
         params:{
             ...obj
         }
     })
 }
+
+// export const getList = (...obj) => {
+//     return axios.get("/list",{
+//         params:{
+//             ...obj
+//         }
+//     })
+// }

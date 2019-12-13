@@ -1,0 +1,178 @@
+html,body{
+    font-size: .16rem;
+    background:#f4f4f4;;
+}
+.movie-slideshow{
+    margin-top: .44rem;
+    height: 1.5rem;
+}
+/* .swiper-container{
+    margin-top: .44rem;
+    height: 1.5rem;
+} */
+.nowPlaying{
+    background: #fff;
+}
+.nowPlaying .nowPlaying-title-bar{
+    height: .62rem;
+    width: 100%;
+    padding: .20rem .15rem;
+}
+.nowPlaying .nowPlaying-title-text{
+    font-size: .16rem;
+    text-align: left;
+    color: #191a1b;
+    display: inline-block;
+    height: .225rem;
+    line-height: .22rem;
+}
+.nowPlaying .nowPlaying-to-all{
+    font-size: .13rem;
+    color: #797d82;
+    float: right;
+    display: inline-block;
+    height: .225rem;
+    line-height: .22rem;
+}
+.nowPlaying .row-scroll-wrapper{
+    overflow: hidden;
+    height: 2.26rem;
+}
+.row-scroll-wrapper .scroll_img{
+    width: 1.05rem;
+    height: 1.50rem;
+    background: rgb(249, 249, 249);
+    opacity: 1;
+    display: block;
+}
+.row-scroll-wrapper ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding-left: .15rem;
+    list-style: none;
+    overflow: scroll;
+    padding-bottom: .2rem;
+}
+.row-scroll-wrapper ul li{
+    position: relative;
+    margin-right: .10rem;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    margin-right: .10rem;
+}
+.row-scroll-wrapper .scroll_img img{
+    width: 100%;
+    height: 100%;
+}
+.row-scroll-wrapper .nowPlaying-film-grade{
+    position: absolute;
+    top: 1.33rem;
+    left:.05rem;
+    font-size: .10rem;
+    text-align: left;
+    color: #fab646;
+}
+.row-scroll-wrapper .nowPlaying-film-name{
+    margin: .10rem 0;
+    display: block;
+    line-height: .21rem;
+    font-size: .15rem;
+    color: #191a1b;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 1.05rem;
+}
+.row-scroll-wrapper .buy-btn{
+    margin-bottom: .20rem;
+    line-height: .25rem;
+    height: .26rem;
+    width: .50rem;
+    color: #c03131;
+    font-size: .13rem;
+    text-align: center;
+    border-radius:.04rem;
+    position: relative;
+    border: .01rem solid #c03131
+}
+.comingSoon-film-premiereAt{
+    color: #797d82;
+    font-size: .12rem;
+}
+.comingSoon{
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+.recommendCinema-list{
+    background: #fff;
+}
+.recommendCinema-list ul li{
+    height: .75rem;
+    border-top:.01rem solid #f4f4f4;
+}
+.recommendCinema-list-wrap{
+    position: relative;
+}
+.recommendCinema-list-wrap img{
+    position: absolute;
+    width: .33rem;
+    height: .33rem;
+    top: 0;
+    left: 0;
+}
+.cinema-index{
+    width: .50rem;
+    line-height: 100%;
+    font-size: .20rem;
+    color: #191a1b;
+    text-align: center;
+    float: left;
+    height: .75rem;
+    line-height: .75rem;
+}
+.cinema-location{
+    width: calc(100% - 1.35rem);
+    float: left;
+    height: .75rem;
+    padding: .15rem 0;
+}
+.cinema-location span{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cinema-location .cinema_name{
+    color: #191a1b;
+    font-size: .16rem;
+    line-height: .21rem;
+}
+.cinema-location .cinema_address{
+    color: #797d82;
+    font-size: .12rem;
+    height: .18rem;
+    margin-top: .1rem;
+}
+.cinema-info{
+    width: .85rem;
+    text-align: right;
+    float: right;
+    height: .75rem;
+    padding: .15rem .15rem .15rem 0;
+}
+.cinema-lowPrice{
+    font-size: .15rem;
+    color: #c03131;
+}
+.cinema-distance{
+    display: block;
+    font-size: .10rem;
+    color: #797d82;
+    margin-top: .1rem;
+}

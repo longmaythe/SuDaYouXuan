@@ -6,6 +6,7 @@ import {Link,withRouter} from 'react-router-dom'
 class head extends Component {
     render() {
         // console.log(this.props)
+        const city = localStorage.getItem('city')?localStorage.getItem('city'):'未知'
         return (
             <div className="class-head">
                 <div className="c-h-l">
@@ -17,7 +18,7 @@ class head extends Component {
                 <div className="c-h-r">
                     <Link to="/localList">
                         <div className="c-h-r-local">
-                            北京市<Icon type="down" />
+                            <p>{city}</p><Icon type="down" />
                         </div>
                     </Link>
                 </div>
